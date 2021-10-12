@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    
+    td:first-child{
+        text-align: right;
+    }
+
+</style>
+
+<body>
+   <h1>ЗАО Птицефабрика №1</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="fam-field">Фамилия</label></td>
+                <td><input type="text" name="fam" id="fam-field" size="25"></td>
+            </tr>
+            <tr>
+                <td><label for="inits-field">Инициалы</label></td>
+                <td><input type="text" name="inits" id="inits-field" size="25"></td>
+            </tr>
+            <tr>
+                <td><label for="passw-field">Пароль</label></td>
+                <td><input type="text" name="passw" id="passw-field" size="25"></td>
+            </tr>
+            <tr>
+                <td><label for="adress-field">Адрес получателя</label></td>
+                <td><input type="text" name="adress" id="adress-field" size="50"></td>
+            </tr>
+            <tr>
+                <td><label for="count-field">Количество</label></td>
+                <td><input type="text" name="count" id="count-field" size="6"></td>
+            </tr>
+            <tr>
+                <td><label for="">Тип</label></td>
+                <td>
+                    <select name="sel1">
+                        <option value="">Куриные</option>
+                    </select>
+                    <select name="sel2">
+                        <option value="">Отборные</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dostav-field">Доставка</label></td>
+                <td>
+                    <input type="radio" name="dostav" value="Почтой" id="dostav-field">Почтой
+                    <input type="radio" name="dostav" value="Электронно" id="dostav-field">Электронно
+                    <input type="radio" name="dostav" value="Курьером" id="dostav-field">Курьером
+                </td>
+            </tr>
+            <tr>
+                <td><label for="naklad-field">Требуется накладная</label></td>
+                <td><input type="checkbox" name="naklad" id="naklad-field"></td>
+            </tr>
+            <tr>
+                <td><label for="dopinfo-field">Дополнительная информация</label></td>
+                <td><textarea name="dopinfo" id="dopinfo-field" rows="5" cols="50"></textarea>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Заказать"></td>
+                <td><input type="reset" value="Отменить"></td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>

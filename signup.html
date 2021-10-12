@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    
+    input[type="reset"],
+    input[type="submit"] {
+        font-size: 15px;
+        font-weight: 700;
+        color: deepskyblue;
+    }
+
+</style>
+
+<body>
+
+    <h1>Пример формы регистрации сайта</h1>
+
+    <form action="">
+        <label for="login-field">Логин:</label><br><input type="text" id="login-field" name="login"><br>
+        <label for="password-field">Пароль:</label><br><input type="text" id="password-field" name="password"><br>
+        <label for="url-field">URL-адрес сайта</label><br><input type="text" id="url-field" name="url" value="https://"><br>
+        <label for="name_site-field">Название сайта:</label><br><input type="text" id="name_site-field" name="name_site"><br>
+        <label for="description-field">Описание сайта:</label><br><textarea name="description_site" id="description-field" cols="60" rows="10"></textarea><br>
+        <label for="text4">Тема сайта:</label><br><select name="theme_site" id="login-field"><option value="Тема не выбрана">Тема не выбрана</option></select><br>
+        <label for="text4">Баннер 88х31:</label><br><input type="file"><br><br>
+        <input type="reset" value="Очистить">
+        <input type="submit" value="Отправить"><br>
+    </form>
+
+
+</body>
+
+</html>
